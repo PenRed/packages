@@ -11,4 +11,15 @@ You can download the entire repository or use the following instruction to downl
 ```console
 curl https://raw.githubusercontent.com/PenRed/packages/master/rpm/PenRed-XXXX.x86_64.rpm --output PenRed.rpm
 ```
-where XXXX depends on the desired file to download.
+where XXXX depends on the desired file to download. Then, install it using
+
+```
+sudo dnf install PenRed.rpm
+```
+
+Finally, check the installation using 
+
+```
+penred -v
+```
+to print the installed PenRed version.
