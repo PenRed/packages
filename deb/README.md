@@ -11,4 +11,15 @@ You can download the entire repository or use the following instruction to downl
 ```console
 curl https://raw.githubusercontent.com/PenRed/packages/master/deb/PenRed-XXXX.x86_64.deb --output PenRed.deb
 ```
-where XXXX depends on the desired file to download.
+where XXXX depends on the desired file to download. Then, install it using
+
+```
+sudo apt install ./PenRed.deb
+```
+
+Finally, check the installation using 
+
+```
+penred -v
+```
+to print the installed PenRed version.
