@@ -23,3 +23,11 @@ Finally, check the installation using
 penred -v
 ```
 to print the installed PenRed version.
+
+### Uninstall
+
+To uninstall PenRed, execute the following instruction,
+
+```
+sudo apt remove penred
+```
